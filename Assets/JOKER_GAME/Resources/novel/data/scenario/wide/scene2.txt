@@ -1,0 +1,160 @@
+@call file=wide/libs/utils
+[bg_new name="background" storage="room"]
+[bg_show name="background"]
+
+;メッセージ表示
+[showmessage]
+[call file=wide/system target="*system_setting_buttons"]
+[text_new name=_sp_chara_name layer=ui x="-168" y=-108.5 val="" color="DDFF00" fontsize=16 anchor="MiddleLeft"]
+[text_show name="_sp_chara_name"] 
+
+
+; -- キャラクター定義 --
+
+[sd_new name="ハッカドール1号" storage="ハッカドール1号" x=-5.37 y=-5.23 z=-4]
+;3Dモデルを表示
+[sd_show name="ハッカドール1号"]
+
+[sd_new name="ハッカドール3号" storage="ハッカドール3号" x=5.37 y=-5.23 z=-4]
+;3Dモデルを表示
+[sd_show name="ハッカドール3号"]
+
+[sd_anim name="ハッカドール3号" state="えへへへへ"]
+
+照れます[l]
+[sd_anim name="ハッカドール3号" state="えへへへへ" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール1号" state="えへへへへ"]
+
+照れます[l]
+[sd_anim name="ハッカドール1号" state="えへへへへ" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="あはははは"]
+
+笑います[l]
+[sd_anim name="ハッカドール3号" state="あはははは" condition="false"]
+
+[cm]
+
+[sd_anim name="ハッカドール3号" state="azunyan"]
+
+踊ります[l]
+[sd_anim name="ハッカドール3号" state="azunyan" condition="false"]
+
+[cm]
+
+[sd_anim name="ハッカドール3号" state="寝転がり尻かき"]
+
+寝ます[l]
+[sd_anim name="ハッカドール3号" state="寝転がり尻かき" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="ばーん！"]
+
+ばーんします[l]
+[sd_anim name="ハッカドール3号" state="ばーん！" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="びくっ"]
+
+びくっとします[l]
+[sd_anim name="ハッカドール3号" state="びくっ" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="ふんっ！"]
+
+ふんっします[l]
+[sd_anim name="ハッカドール3号" state="ふんっ！" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="オーバーな立ち上がり"]
+
+オーバーに立ちます[l]
+[sd_anim name="ハッカドール3号" state="オーバーな立ち上がり" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="コケる1"]
+
+一つ目のこけ方をします[l]
+[sd_anim name="ハッカドール3号" state="コケる1" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="コケる2"]
+
+二つ目のこけ方をします[l]
+[sd_anim name="ハッカドール3号" state="コケる2" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="テレポートアウト1"]
+
+テレポートアウト1をします[l]
+[sd_anim name="ハッカドール3号" state="テレポートアウト1" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="投げキッス"]
+
+投げキスをします[l]
+[sd_anim name="ハッカドール3号" state="投げキッス" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="投げキッス"]
+
+投げキスをします[l]
+[sd_anim name="ハッカドール3号" state="投げキッス" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="痛い足抱えジャンプ"]
+
+痛い足を抱えてジャンプします[l]
+[sd_anim name="ハッカドール3号" state="痛い足抱えジャンプ" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="歩き"]
+
+歩きます[l]
+[sd_anim name="ハッカドール3号" state="歩き" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="振り向き1"]
+
+ひとつ目の振り向き方をします[l]
+[sd_anim name="ハッカドール3号" state="振り向き1" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="振り向き2"]
+
+ふたつ目の振り向き方をします[l]
+[sd_anim name="ハッカドール3号" state="振り向き2" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="立ったまま居眠り"]
+
+立ったまま寝ます[l]
+[sd_anim name="ハッカドール3号" state="立ったまま居眠り" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="躓く1"]
+
+つまずきます[l]
+[sd_anim name="ハッカドール3号" state="躓く1" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="驚き1"]
+
+驚きます[l]
+[sd_anim name="ハッカドール3号" state="驚き1" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="驚き2"]
+
+二つ目の驚きをします[l]
+[sd_anim name="ハッカドール3号" state="驚き2" condition="false"]
+[cm]
+
+[sd_anim name="ハッカドール3号" state="驚き3"]
+
+三つ目の驚きをします[l]
+[sd_anim name="ハッカドール3号" state="驚き3" condition="false"]
+[cm]
