@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4F0BF6A7-9205-8CFC-71EF-29EB61CDF35B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Users/script01/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Users/script01/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\Exporter.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimAnimMorphHelperInspector.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimAssignMaterialModel.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimBoneInspector.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimBulletPhysicsInspector.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporter.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterInspector.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimModelInspector.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimPreProcessBuild.cs" />
+     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimRigidBodyInspector.cs" />
+     <None Include="Assets\おんだ式ハッカドール2号\モデルデータ\おんだ式ハッカドール2号_v1.00.MMD4Mecanim.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardAdd.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-ForwardBase.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Compatible.cginc" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\utils.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc" />
+     <None Include="Assets\ハッカドール1号.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Edge.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\utils.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-Lighting.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardBase.cginc" />
+     <None Include="Assets\おんだ式ハッカドール3号\モデルデータ\おんだ式ハッカドール3号_v1.00.MMD4Mecanim.xml" />
+     <None Include="Assets\MMD4Mecanim\Editor\Revision.txt" />
+     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\readme.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\save.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\title.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-Transparent.shader" />
+     <None Include="Assets\おんだ式ハッカドール3号\ReadMe.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardBase.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces-Edge.shader" />
+     <None Include="Assets\おんだ式ハッカドール2号\モデルデータ\ハッカドール2号.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardAdd.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Transparent-Edge.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\save.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\title.txt" />
+     <None Include="Assets\おんだ式ハッカドール1号\モデルデータ\おんだ式ハッカドール1号_v1.00.MMD4Mecanim.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\system.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-AutoLight.cginc" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\system.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass4.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-Transparent-Edge.shader" />
+     <None Include="Assets\おんだ式ハッカドール1号\モデルデータ\ハッカドール1号.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass8.shader" />
+     <None Include="Assets\おんだ式ハッカドール3号\モデルデータ\ハッカドール3号.xml" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\menu.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Transparent.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Edge.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\first.txt" />
+     <None Include="Assets\おんだ式ハッカドール1号\ReadMe.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\menu.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-Tessellation.cginc" />
+     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\pmx2fbx.xml" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Lighting.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\scene1.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCollector.cginc" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Edge.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Dummy.shader" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\config\config.txt" />
+     <None Include="Assets\おんだ式ハッカドール2号\ReadMe.txt" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces.shader" />
+     <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Lighting.cginc" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Users/script01/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="MMD4MecanimEditor">
+ <HintPath>C:/Users/script01/Desktop/3Dゼミ用/Assets/MMD4Mecanim/Editor/MMD4MecanimEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="MMD4Mecanim">
+ <HintPath>C:/Users/script01/Desktop/3Dゼミ用/Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>C:/Users/script01/Desktop/3Dゼミ用/Assets/Plugins/JOKER/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="NCalc">
+ <HintPath>C:/Users/script01/Desktop/3Dゼミ用/Assets/Plugins/JOKER/NCalc.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Users/script01/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{99E798C9-6341-D751-8875-A503AA7AAD5E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
