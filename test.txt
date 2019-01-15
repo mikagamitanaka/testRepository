@@ -1,4 +1,4 @@
-﻿koreha test desu
+koreha test desu
 これもテストです
 
 
@@ -18,3 +18,5 @@ aaaa
 aaaa
 
 にゃんこ
+
+わんこが好きです
